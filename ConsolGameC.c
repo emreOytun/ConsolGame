@@ -12,6 +12,7 @@ typedef enum{
 
 void getCommand(char command[]);
 int getArraySize(char **commandPointer);
+int getSquareNum(char **commandPointer);
 
 int main(){
 	
